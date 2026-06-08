@@ -1,0 +1,64 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Nani's Harvest",
+  "url": "https://www.nanisharvest.com",
+  "logo": "https://www.nanisharvest.com/assets/images/logo.png",
+  "description": "Nani's Harvest – Where Tradition Meets Purity. Organic agriculture powders and herbs sourced with care.",
+  "sameAs": [
+    "https://www.amazon.in"
+  ]
+},
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Nani's Harvest",
+  "url": "https://www.nanisharvest.com",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.nanisharvest.com/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+},
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Nani's Harvest Product List",
+  "itemListElement": [
+    {
+      "@type": "Product",
+      "name": "Moringa Leaf Powder",
+      "image": "https://www.nanisharvest.com/assets/images/moringa.jpg",
+      "url": "https://www.nanisharvest.com/products/moringa.html",
+      "brand": "Nani's Harvest"
+    },
+    {
+      "@type": "Product",
+      "name": "Neem Leaf Powder",
+      "image": "https://www.nanisharvest.com/assets/images/neem.jpg",
+      "url": "https://www.nanisharvest.com/products/neem.html",
+      "brand": "Nani's Harvest"
+    },
+    {
+      "@type": "Product",
+      "name": "Amla Fruit Powder",
+      "image": "https://www.nanisharvest.com/assets/images/amla.jpg",
+      "url": "https://www.nanisharvest.com/products/amla.html",
+      "brand": "Nani's Harvest"
+    },
+    {
+      "@type": "Product",
+      "name": "Curry Leaf Powder",
+      "image": "https://www.nanisharvest.com/assets/images/curry-leaf.jpg",
+      "url": "https://www.nanisharvest.com/products/curry-leaf.html",
+      "brand": "Nani's Harvest"
+    },
+    {
+      "@type": "Product",
+      "name": "Soursop Leaf Powder",
+      "image": "https://www.nanisharvest.com/assets/images/soursop.jpg",
+      "url": "https://www.nanisharvest.com/products/soursop.html",
+      "brand": "Nani's Harvest"
+    }
+  ]
+}
