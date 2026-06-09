@@ -27,16 +27,37 @@
 <body>
 
 <!-- Navbar -->
-<?php include 'navbar.html'; ?>
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="assets/images/logo.png" width="50" class="me-2">
+      Nani's Harvest
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 
 <!-- Hero -->
-<section class="container-fluid p-0">
+<section class="container-fluid p-0 fade-in">
   <div class="position-relative">
-    <img src="assets/images/banner.jpg" class="img-fluid w-100">
-    <div class="position-absolute top-50 start-50 translate-middle text-white text-center">
+    <img src="assets/images/banner.jpg" class="img-fluid w-100 hero-zoom">
+    <div class="position-absolute top-50 start-50 translate-middle text-white text-center slide-up">
       <h1 class="display-5 fw-bold">Pure. Natural. Trusted.</h1>
       <p class="lead">Organic herbal powders crafted with care.</p>
-      <a href="products.html" class="btn btn-lg">Explore Products</a>
+      <a href="products.html" class="btn btn-lg btn-pulse">Explore Products</a>
     </div>
   </div>
 </section>

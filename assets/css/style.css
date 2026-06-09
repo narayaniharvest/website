@@ -56,3 +56,77 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+/* Fade In */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.4s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Slide Up */
+.slide-up {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: slideUp 1.2s ease-out forwards;
+}
+
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Slow Zoom Hero */
+.hero-zoom {
+  animation: heroZoom 12s ease-in-out infinite alternate;
+}
+
+@keyframes heroZoom {
+  from { transform: scale(1); }
+  to { transform: scale(1.08); }
+}
+
+/* Card Hover Lift */
+.card:hover {
+  transform: translateY(-6px);
+  transition: 0.3s ease;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+/* Button Pulse */
+.btn-pulse {
+  animation: pulse 2.2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.06); }
+  100% { transform: scale(1); }
+}
+
+/* Reveal on Scroll */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.9s ease-out;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.bg-floating {
+  background-image: url('../assets/images/leaf-pattern.png');
+  background-size: 300px;
+  animation: floatBg 18s linear infinite alternate;
+}
+
+@keyframes floatBg {
+  from { background-position: 0 0; }
+  to { background-position: 40px 60px; }
+}
