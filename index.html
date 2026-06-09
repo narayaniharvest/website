@@ -21,57 +21,49 @@
 <meta name="description" content="Premium organic herbal powders crafted with care. Explore Moringa, Neem, Amla, Curry Leaf, and Soursop Leaves — pure, natural, and trusted on Amazon India.">
 <meta name="keywords" content="Nani's Harvest, herbal powders India, organic moringa, neem powder, amla powder, curry leaf powder, soursop leaves, Amazon India herbs">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <header>
-    <div class="logo">
-      <img src="assets/images/logo.png" alt="Nani's Harvest Logo">
-      
+
+<!-- Navbar -->
+<?php include 'navbar.html'; ?>
+
+<!-- Hero -->
+<section class="container-fluid p-0">
+  <div class="position-relative">
+    <img src="assets/images/banner.jpg" class="img-fluid w-100">
+    <div class="position-absolute top-50 start-50 translate-middle text-white text-center">
+      <h1 class="display-5 fw-bold">Pure. Natural. Trusted.</h1>
+      <p class="lead">Organic herbal powders crafted with care.</p>
+      <a href="products.html" class="btn btn-lg">Explore Products</a>
     </div>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="products.html">Products</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+  </div>
+</section>
 
-  <main>
-    <section class="hero">
-      <img src="assets/images/banner.jpg" alt="Organic agriculture products banner">
-      <div class="hero-text">
-        <!-- <h2>Pure. Organic. Trusted.</h2>
-        <p>Bringing nature’s finest harvests from our farms to your home.</p> -->
-        <a class="btn" href="products.html">Explore Products</a>
-      </div>
-    </section>
+<!-- Highlights -->
+<section class="container py-5">
+  <div class="row text-center">
+    <div class="col-md-4">
+      <h4>100% Pure Ingredients</h4>
+      <p>No fillers, no chemicals — only nature’s finest.</p>
+    </div>
+    <div class="col-md-4">
+      <h4>Amazon India Seller</h4>
+      <p>Fast delivery, trusted packaging, verified quality.</p>
+    </div>
+    <div class="col-md-4">
+      <h4>Farm‑to‑Pack Freshness</h4>
+      <p>Harvested, shade‑dried, and packed with care.</p>
+    </div>
+  </div>
+</section>
 
-    <section class="highlights">
-      <h2>Why Choose Nani's Harvest?</h2>
-      <div class="grid">
-        <article>
-          <h3>Authentic & Organic</h3>
-          <p>Our products are grown naturally and processed with care.</p>
-        </article>
-        <article>
-          <h3>Amazon India Seller</h3>
-          <p>Shop securely with fast delivery and trusted service.</p>
-        </article>
-        <article>
-          <h3>Farm to Pack</h3>
-          <p>We ensure freshness and purity from harvest to packaging.</p>
-        </article>
-      </div>
-    </section>
-  </main>
+<footer>
+  <p>&copy; <span id="year"></span> Nani's Harvest</p>
+</footer>
 
-  <footer>
-    <p>&copy; <span id="year"></span> Nani's Harvest. All rights reserved.</p>
-  </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"  crossorigin="anonymous"></script>
-  <script src="assets/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> <script src="assets/js/main.js"></script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
