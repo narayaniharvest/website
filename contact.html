@@ -2,49 +2,73 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Contact | Narayani Organic Harvest</title>
-  <meta name="description" content="Contact Narayani Organic Harvest for queries, bulk orders, and Amazon India product links.">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Contact Us | Nani's Harvest</title>
+<meta name="description" content="Contact Nani's Harvest for product inquiries, Amazon orders, or wholesale partnerships.">
+<meta name="keywords" content="contact Nani's Harvest, herbal supplier India, Amazon seller support, organic herbs contact">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+
 <body>
-  <header>
-    <div class="logo">
-      <img src="assets/images/logo.png" alt="Narayani Organic Harvest Logo">
-      <h1>Narayani Organic Harvest</h1>
+<header>
+  <div class="logo">
+    <img src="assets/images/logo.png" alt="Nani's Harvest Logo">
+    <h1>Nani's Harvest</h1>
+    <p class="tagline">Where Tradition Meets Purity</p>
+  </div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="products.html">Products</a>
+    <a href="contact.html" class="active">Contact</a>
+  </nav>
+</header>
+
+<section class="page-header">
+  <h2>Contact Us</h2>
+  <p>We’re here to help — whether it’s about our products, Amazon orders, or wholesale inquiries.</p>
+</section>
+
+<section class="contact-section">
+  <div class="contact-container">
+
+    <h3>Reach Out Anytime</h3>
+    <p>
+      At Nani’s Harvest, we believe in honest communication and warm customer care. 
+      If you have questions about our herbal powders, Amazon delivery, or business partnerships, 
+      we’d love to hear from you.
+    </p>
+
+    <div class="contact-details">
+      <p><strong>Email:</strong> info@nanis-harvest.com</p>
+      <p><strong>WhatsApp:</strong> +91 98765 43210</p>
+      <p><strong>Amazon Store:</strong> <a href="https://www.amazon.in" target="_blank">Visit our Amazon India Store</a></p>
     </div>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="products.html">Products</a>
-      <a href="contact.html" class="active">Contact</a>
-    </nav>
-  </header>
 
-  <main>
-    <section class="page-header">
-      <h2>Contact Us</h2>
-      <p>We’d love to hear from you.</p>
-    </section>
+    <h3>Send Us a Message</h3>
+    <form class="contact-form" name="contact" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="contact">
 
-    <section class="content">
-      <h3>For Orders & Queries</h3>
-      <p>Email: <a href="mailto:info@narayaniharvest.com">info@narayaniharvest.com</a></p>
-      <p>WhatsApp: <a href="https://wa.me/91XXXXXXXXXX" target="_blank">+91-XXXXXXXXXX</a></p>
+      <label>Name</label>
+      <input type="text" name="name" required>
 
-      <h3>Buy on Amazon India</h3>
-      <p>
-        Visit our Amazon store to purchase securely:
-        <br>
-        <a href="https://www.amazon.in" target="_blank">Shop Narayani Organic Harvest on Amazon India</a>
-      </p>
-    </section>
-  </main>
+      <label>Email</label>
+      <input type="email" name="email" required>
 
-  <footer>
-    <p>&copy; <span id="year"></span> Narayani Organic Harvest. All rights reserved.</p>
-  </footer>
+      <label>Message</label>
+      <textarea name="message" rows="5" required></textarea>
 
-  <script src="assets/js/main.js"></script>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+
+  </div>
+</section>
+
+<footer>
+  <p>&copy; <span id="year"></span> Nani's Harvest. All rights reserved.</p>
+</footer>
+
+<script src="assets/js/main.js"></script>
 </body>
 </html>
